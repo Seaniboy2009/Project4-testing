@@ -15,12 +15,8 @@ main {
     background-color: rgba(71, 67, 66, 0.9);
 }
 
-.text-faded {
-    color: #ffc67d;
-}
-
-.text-main, h1 {
-    color: #ffc67d;
+.text-main, h1, text-faded {
+    color: #000000;
 }
 
 .text-center {
