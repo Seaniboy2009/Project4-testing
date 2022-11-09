@@ -49,3 +49,10 @@ main {
     border-bottom: solid 5px rgba(0, 0, 0, 0.9);
     border-width: thin;
 }
+
+/* ************************************************* menu */
+
+.featurette-image {
+    max-width: 80%;
+    border-radius: 40%;
+}
