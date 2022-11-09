@@ -6,7 +6,7 @@ body {
 
 main {
     min-height: 100vh;
-    background-color: #fafafa;
+    background-color: rgba(71, 67, 66, 0.671);
 }
 
 /* ************************************************* Colour */
@@ -38,4 +38,14 @@ main {
     font-size: 5rem;
     font-weight: 100;
     line-height: 4rem;
+}
+
+.featurette {
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 100%;
+    border-bottom: solid 5px rgba(0, 0, 0, 0.9);
+    border-width: thin;
 }
