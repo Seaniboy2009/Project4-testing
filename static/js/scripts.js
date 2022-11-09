@@ -6,6 +6,5 @@ document.addEventListener("DOMContentLoaded", () => {
     menu_button.addEventListener("click", () => {
         console.log("menu button clicked")
         menu_list.classList.toggle("collapse");
-
     });
 })

@@ -4,13 +4,16 @@ body {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* ************************************************* Background */
+main {
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+
+/* ************************************************* Colour */
 
 #mainNav {
     background-color: rgba(71, 67, 66, 0.9);
 }
-
-/* ************************************************* Colour */
 
 .text-faded {
     color: #ffc67d;
@@ -19,6 +22,16 @@ body {
 .text-main, h1 {
     color: #ffc67d;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.footer {
+    background-color: rgba(71, 67, 66, 0.9);
+}
+
+/* ************************************************* heading */
 
 .site-heading .site-heading-stars {
     display: block;
