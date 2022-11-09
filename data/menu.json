@@ -1,0 +1,31 @@
+[{
+        "item": "Rump steak",
+        "price": "£15.99",
+        "image": "",
+        "description": "10 ounce rump steak"
+    },
+    {
+        "item": "Sirloin steak",
+        "price": "£21.50",
+        "image": "",
+        "description": "10 ounce rump steak"
+    },
+    {
+        "item": "Fillet steak",
+        "price": "£39.99",
+        "image": "",
+        "description": "10 ounce rump steak"
+    },
+    {
+        "item": "Ribeye steak",
+        "price": "£31.50",
+        "image": "",
+        "description": "10 ounce rump steak"
+    },
+    {
+        "item": "Veg dish",
+        "price": "£11.0",
+        "image": "",
+        "description": "10 ounce rump steak"
+    }
+]

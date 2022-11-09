@@ -1,49 +1,23 @@
 {% extends "base.html" %}
 {% block content %}
     <div class="text-main text-center">
-        <h1>Home</h1>
+        <h2>{{ page_title }}</h2>
         <p>Clarks is a family run 5 star restaurant, setup in 2022</p>
-        <div class="reviews row featurette">
-            <div class="col-md-7">
-                <h2>Jane from glasgow</h2>
-                <br>
-                <p><i class="fa-solid fa-star"></i>Amazing<i class="fa-solid fa-star"></i></p>
+        {% for review in reviews %}
+            <div class="reviews row featurette">
+                <div class="col-md-7">
+                    <h2>{{ review.name }}</h2>
+                    <p>from {{ review.location }}</p>
+                </div>
+                <div class="col-md-5">
+                    <h4>Review</h4>
+                    <p>{{ review.stars }}</p>
+                    <br>
+                    <p>
+                        {{ review.review }}
+                    </p>
+                </div>
             </div>
-            <div class="col-md-5">
-                <h4>Review</h4>
-                <br>
-                <p>
-                    lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
-                </p>
-            </div>
-        </div>
-        <div class="reviews row featurette">
-            <div class="col-md-7">
-                <h4>Review</h4>
-                <br>
-                <p>
-                    lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
-                </p>
-            </div>
-            <div class="col-md-5">
-                <h2>Mick from greenock</h2>
-                <br>
-                <p><i class="fa-solid fa-star"></i>Will be going again<i class="fa-solid fa-star"></i></p>
-            </div>
-        </div>
-        <div class="reviews row featurette">
-            <div class="col-md-7">
-                <h2>Jamie from greenock</h2>
-                <br>
-                <p><i class="fa-solid fa-star"></i>Best place i have ever been<i class="fa-solid fa-star"></i></p>
-            </div>
-            <div class="col-md-5">
-                <h4>Review</h4>
-                <br>
-                <p>
-                    lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
-                </p>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 {% endblock %}
