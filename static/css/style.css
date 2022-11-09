@@ -1,8 +1,28 @@
+/* ************************************************* Background Image */
 body {
-    background-image: linear-gradient(rgb(101 77 71 / 60%), rgb(34 24 20 / 87%)), url("https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/02/how-to-cook-steak-1061w.jpg");
+    background-image: linear-gradient(rgb(90 51 42 / 60%), rgb(22 21 20)), url("https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/02/how-to-cook-steak-1061w.jpg");
     background-color: rgba(0, 0, 0, 0.9);
 }
 
+/* ************************************************* Background */
+
 #mainNav {
     background-color: rgba(71, 67, 66, 0.9);
+}
+
+/* ************************************************* Colour */
+
+.text-faded {
+    color: #ffc67d;
+}
+
+.text-main, h1 {
+    color: #ffc67d;
+}
+
+.site-heading .site-heading-stars {
+    display: block;
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 4rem;
 }
